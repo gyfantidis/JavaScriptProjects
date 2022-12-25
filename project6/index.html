@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>image carousel 🎠🎠🎠</title>
+  </head>
+  <body>
+    <div class="topic"><h1>Toyota Auris Photos</h1></div>
+    
+    <div class="container">
+      <div class="image fade">
+        <img src="img/auris1.jpg" alt="Auris1" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="img/auris2.jpg" alt="Auris2" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="img/auris3.jpg" alt="Auris3" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="img/auris4.jpg" alt="Auris4" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="img/auris5.jpg" alt="Auris5" width="100%" />
+      </div>
+      <div class="image fade">
+        <img src="img/auris6.jpg" alt="Auris6" width="100%" />
+      </div>
+
+      <i id="prev" onclick="show_image(-1)" class="fa-solid fa-backward"></i>
+      <i id="next" onclick="show_image(1)" class="fa-solid fa-forward"></i>
+
+      <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
